@@ -105,7 +105,6 @@ nav .navDiv2 {
 
 /* heading section*/
 heading .headingSections {
-	position:relative;
 	display:inline-block;
 	width: 45%;
 	text-align:center;
@@ -163,6 +162,10 @@ heading a {
 	width:90%;
 	margin: 0 auto 5%;
 	text-align:center;
+}
+
+.middleImg img {
+	width:100%;
 }
 
 /*bottom section div*/
