@@ -60,7 +60,13 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Monoton', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+h2, h3, h4, h5 {
+    font-family: 'Righteous', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
@@ -72,6 +78,7 @@ nav {
 	margin-bottom: 5%;
 	background-color:lightseagreen;
 }
+
 nav .navDiv1 {
 	width: 67%;	
 	display:inline-block;
@@ -80,13 +87,12 @@ nav .navDiv1 {
 }
 nav div a {
 	text-decoration: none;
-	color:gray;
+	color:black;
 	text-align: center;
 	font-size:14px;
 	display:inline-block;
 	width:16%;
 	margin: 5% 0 5% 0;
-
 }
 
 nav .navDiv2 {
