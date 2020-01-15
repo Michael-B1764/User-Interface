@@ -70,6 +70,7 @@ h1, h2, h3, h4, h5 {
 /* top bar styles*/
 nav {
 	margin-left: 3%;
+	position:relative;
 }
 nav .navDiv1 {
 	width: 67%;	
@@ -92,16 +93,96 @@ nav .navDiv2 {
 	display:inline-block;
 	text-align: center;
 	margin-left: 5%
+	
+}
+
+/* heading section*/
+heading .headingSections {
+	position:relative;
+	display:inline-block;
+	width: 45%;
+	text-align:center;
+	margin:0 0 5% 0;
+}
+.headingSections1 {
+	position: relative;
+}
+heading .headingText {
+	margin: 10% 0 8% 5%;
+	position:absolute;
+	top: 0; bottom: 0; left: 0; right: 0;
+	margin: auto;
+	height: 650px;
+}
+heading h1 {
+	font-size: 72px;
+	text-align: center;
+}
+
+heading .getStartedButton {
+	margin-top: 2%;
+}
+
+heading a {
+	text-decoration: none;
+	color: black;
+	border: 1px solid black;
+	text-align: center;
+	padding: 3px 10%;
+}
+
+
+/* middle line */
+ 
+.middleLine {
+	width: 90%;
+	border: 1px solid black;
+	margin: 5% auto 6%;
+}
+
+/* top main section */
+.topSection div {
+	display:inline-block;
+	width: 49%;
+	margin: auto auto 5% 0;
+	padding:0 5% ;
+}
+
+/*center image*/
+
+.middleImg {
+	width:90%;
+	margin: 0 auto 5%;
+	text-align:center;
+}
+
+/*bottom section div*/
+
+.bottomSection div {
+	display:inline-block;
+	width: 33%;
+	margin: 0 auto;
+	padding:0 5% ;
+}
+
+.bottomLine {
+	width: 90%;
+	border: 1px solid black;
+	margin: 5% auto 6%;
+}
+
+/* footer */
+
+footer{
+	margin-left: 5%;
+}
+footer .copyright {
+	margin: 5% auto 10%;
+	text-align:center;
 }
 
 
 
-
-
-
-
-
-/* 
 * { outline: 1px solid black;
 	outline-offset: -1px;
- } */
+ }
