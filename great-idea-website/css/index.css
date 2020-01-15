@@ -1,3 +1,4 @@
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -24,6 +25,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -49,7 +51,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
@@ -58,9 +60,141 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Monoton', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+h2, h3, h4, h5 {
+    font-family: 'Righteous', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+
+/* top bar styles*/
+nav {
+	margin-bottom: 5%;
+	background-color:lightseagreen;
+}
+
+nav .navDiv1 {
+	width: 67%;	
+	display:inline-block;
+	margin:2% 0 2% 0;
+	 
+}
+nav div a {
+	text-decoration: none;
+	color:black;
+	text-align: center;
+	font-size:14px;
+	display:inline-block;
+	width:16%;
+	margin: 5% 0 5% 0;
+}
+
+nav .navDiv2 {
+	width: 22%;
+	display:inline-block;
+	text-align: center;
+	margin-left: 5%
+	
+}
+
+/* heading section*/
+heading .headingSections {
+	display:inline-block;
+	width: 45%;
+	text-align:center;
+	margin:0 0 0% 0;
+}
+.headingSections1 {
+	/* edited this out since I am not supposed to use this method.
+	
+	position:absolute;
+	top: 0; bottom: 0; left: 0; right: 0;
+	margin: auto;
+	height: 780px; */
+}
+heading .headingText {
+	margin: 10% 0 8% 5%;
+}
+heading h1 {
+	font-size: 72px;
+	text-align: center;
+}
+
+heading .getStartedButton {
+	margin-top: 2%;
+}
+
+heading a {
+	text-decoration: none;
+	color: black;
+	border: 1px solid black;
+	text-align: center;
+	padding: 3px 10%;
+}
+
+
+
+/* middle line */
+ 
+.middleLine {
+	width: 90%;
+	border: 1px solid black;
+	margin: 5% auto 6%;
+}
+
+/* top main section */
+.topSection div {
+	display:inline-block;
+	width: 49%;
+	margin: auto auto 5% 0;
+	padding:0 5% ;
+}
+
+/*center image*/
+
+.middleImg {
+	width:90%;
+	margin: 0 auto 5%;
+	text-align:center;
+}
+
+.middleImg img {
+	width:100%;
+}
+
+/*bottom section div*/
+
+.bottomSection div {
+	display:inline-block;
+	width: 33%;
+	margin: 0 auto;
+	padding:0 5% ;
+}
+
+.bottomLine {
+	width: 90%;
+	border: 1px solid black;
+	margin: 5% auto 6%;
+}
+
+/* footer */
+
+footer{
+	margin-left: 5%;
+}
+footer .copyright {
+	margin: 5% auto 10%;
+	text-align:center;
+}
+
+
+
+/* * { outline: 1px solid black;
+	outline-offset: -1px;
+ } */
